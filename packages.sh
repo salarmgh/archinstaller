@@ -71,7 +71,8 @@ pacman -S \
     networkmanager-openconnect \
     polkit-gnome \
     gnome-keyring \
-    udisks2
+    udisks2 \
+    lightdm-gtk-greeter
 
 systemctl enable lightdm
 
